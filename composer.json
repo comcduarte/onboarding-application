@@ -14,11 +14,27 @@
 		"laminas/laminas-component-installer" : "^3.2",
 		"laminas/laminas-development-mode" : "^3.10",
 		"laminas/laminas-skeleton-installer" : "^1.2",
-		"laminas/laminas-mvc" : "^3.6.0"
+		"laminas/laminas-mvc" : "^3.6.0",
+		"comcduarte/laminas-box" : "dev-develop",
+		"comcduarte/laminas-html" : "dev-develop",
+		"laminas/laminas-navigation" : "~2.18",
+		"laminas/laminas-permissions-acl" : "~2.15",
+		"laminas/laminas-permissions-rbac" : "~3.5",
+		"laminas/laminas-mvc-plugins" : "~1.2",
+		"laminas/laminas-db" : "~2.18",
+		"laminas/laminas-mvc-form" : "~2.1",
+		"laminas/laminas-form" : "~3.13",
+		"laminas/laminas-crypt" : "~3.10"
 	},
 	"autoload" : {
 		"psr-4" : {
-			"Application\\" : "module/Application/src/"
+			"Application\\" : "module/Application/src/",
+			"Acl\\" : "module/Acl/src",
+			"Annotation\\" : "module/Annotation/src",
+			"Report\\" : "module/Report/src",
+			"Settings\\" : "module/Settings/src",
+			"User\\" : "module/User/src",
+			"Components\\" : "module/Components/src"
 		}
 	},
 	"autoload-dev" : {
