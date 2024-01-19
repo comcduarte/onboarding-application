@@ -16,3 +16,12 @@
 [submodule "module/Components"]
 	path = module/Components
 	url = git@github.com:comcduarte/com-ponents.git
+[submodule "module/Contact"]
+	path = module/Contact
+	url = git@github.com:comcduarte/com-contact.git
+[submodule "module/Html"]
+	path = module/Html
+	url = git@github.com:dassociates/html.git
+[submodule "module/Employee"]
+	path = module/Employee
+	url = git@github.com:comcduarte/com-employee.git
