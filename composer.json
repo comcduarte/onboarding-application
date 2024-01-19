@@ -15,7 +15,7 @@
 		"laminas/laminas-development-mode" : "^3.10",
 		"laminas/laminas-skeleton-installer" : "^1.2",
 		"laminas/laminas-mvc" : "^3.6.0",
-		"comcduarte/laminas-box" : "dev-develop",
+		"comcduarte/laminas-box" : "dev-release/0.0.1",
 		"comcduarte/laminas-html" : "dev-develop",
 		"laminas/laminas-navigation" : "~2.18",
 		"laminas/laminas-permissions-acl" : "~2.15",
