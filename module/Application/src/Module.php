@@ -6,6 +6,9 @@ namespace Application;
 
 class Module
 {
+    public const TITLE = "Onboarding";
+    public const VERSION = "0.0.1";
+    
     public function getConfig(): array
     {
         /** @var array $config */
